@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background-header{
+    height: 300px;
+    /* background: url("../../images/hero-img.png"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.available-book{
+    color: greenyellow;
+}
+.header-book{
+    font-weight: 1300px;
+}
+.borrow-book-row{
+    display: flex;
+}
+
+.borrow-book-row .borrow-book{
+    margin-left: 150px;
+    margin-right: 100px;
+}
+
+.edit-detail{
+    margin-right: 130px;
+}
+
+

@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.background-images{
+    display: flex;
+    background: url("../../images/login-cover.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 425px) {
+    .background-images {
+        display: none;
+        background: none;
+       
+    }
+    .background-images .cover-header-footer{
+        display: none;
+       
+    }
+  }
