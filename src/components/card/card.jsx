@@ -1,4 +1,5 @@
 import React from "react";
+import Flickity from "react-flickity-component";
 import { Link } from "react-router-dom";
 import "./card.css";
 
@@ -11,7 +12,8 @@ export default function card(books,search) {
      <div class="cardd">
       <Link to={`/detail/${book.id}`} >
           <img src={book.url} class="card-img-top" alt="..." />
-      </Link>     
+        </Link>
+      
         <div class="card-body">
           <h5 class="card-title" id="card-title">
             {book.title}
@@ -25,3 +27,5 @@ export default function card(books,search) {
     ));
   }
 }
+
+

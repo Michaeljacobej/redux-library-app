@@ -118,8 +118,6 @@ function Dashboard() {
     navigate("/register");
   };
 
-  
-  
 
 	const AscendingDate = () => {
     const arr1 =item.map(obj => {

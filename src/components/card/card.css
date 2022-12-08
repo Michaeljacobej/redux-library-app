@@ -1,5 +1,6 @@
 .cardd {
   width: 250px;
+  /* background: rgb(182, 181, 181); */
 }
 
 .card {
@@ -8,9 +9,13 @@
   border-radius: 8px;
   overflow: hidden;
 
-  height: 400px;
+  height: 200px;
   color: #fff;
   cursor: pointer;
+}
+
+.card-body{
+  background: rgb(247, 238, 238);
 }
 
 .card-top h1 {

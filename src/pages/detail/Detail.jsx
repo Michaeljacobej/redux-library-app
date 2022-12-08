@@ -8,9 +8,8 @@ function Detail() {
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
   let navigate = useNavigate();
-  // const {isAuth} = useSelector((state)=>state.user)
-  // const isAuth =true;
-  const isAuth =true;
+  const {isAuth} = useSelector((state)=>state.user)
+
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -46,8 +45,11 @@ function Detail() {
     if (result === book.id) {
       book.url = "";
       book.title = "";
+      book.date =" "
       book.description = "";
+     
       document.getElementById("title-book").innerHTML = "";
+      document.getElementById("date-book").innerHTML = "";
       document.getElementById("description-book").innerHTML = "";
       document.getElementById("background-header").style.backgroundImage =
         "url(" + "" + ")";
